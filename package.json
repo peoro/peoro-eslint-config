@@ -1,0 +1,26 @@
+{
+	"name": "@peoro/eslint-config",
+	"version": "1.0.0",
+	"description": "peoro's ESLint config",
+	"main": "index.js",
+	"scripts": {
+		"pretest": "eslint -c index.js index.js",
+		"test": "node index.js"
+	},
+	"devDependencies": {
+		"eslint": "^5.9.0"
+	},
+	"peerDependencies": {
+	    "eslint": ">= 3"
+	},
+	"author": "peoro",
+	"license": "MIT",
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"eslint-config"
+	],
+	"homepage": "https://github.com/peoro/peoro-eslint-config#readme",
+	"bugs": "https://github.com/peoro/peoro-eslint-config/issues",
+	"repository": "github:peoro/peoro-eslint-config"
+}
