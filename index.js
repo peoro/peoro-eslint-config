@@ -1,23 +1,23 @@
-/*eslint-env node*/
+/* eslint-env node */
 
 'use strict';
 
 module.exports = {
-	"extends": "eslint:recommended",
-	"parserOptions": {
-		"ecmaVersion": 2018
+	extends: "eslint:recommended",
+	parserOptions: {
+		ecmaVersion: 2018
 	},
-	"rules": {
-		"indent": [
+	rules: {
+		indent: [
 			"error",
 			"tab",
-			{ "SwitchCase": 1 }
+			{ SwitchCase:1 }
 		],
 		"linebreak-style": [
 			"error",
 			"unix"
 		],
-		"semi": [
+		semi: [
 			"error",
 			"always"
 		],
@@ -25,7 +25,7 @@ module.exports = {
 			"error",
 			{ "args": "none" }
 		],
-		"strict": [
+		strict: [
 			"error",
 			"global"
 		],
